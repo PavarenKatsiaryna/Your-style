@@ -1,0 +1,12 @@
+.featiconscont {
+  width: 85px;
+  height: 38px;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.slider {
+  background-color: #d6d6d6;
+}

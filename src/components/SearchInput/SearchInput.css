@@ -1,0 +1,24 @@
+.searchInput {
+    width: 900px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 75px;
+    padding-left: 45px;
+    position: relative;
+}
+
+input::placeholder {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(166, 166, 166);
+}
+
+.iconSearch{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 88px;
+    left: 100px;
+}

@@ -1,0 +1,80 @@
+.mainContainerUp {
+  width: auto;
+  height: 500px;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerUp {
+  width: 300px;
+  height: 420px;
+}
+.inputsContainerUp {
+  width: 300px;
+  height: 300px;
+}
+.default {
+  width: 225px;
+  height: 30px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: Inter;
+  font-weight: 400;
+  border: none;
+  padding: 0px 0px 0px 20px;
+}
+.default::placeholder {
+  width: 138px;
+  height: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #82838c;
+}
+.focus:focus {
+  outline: none;
+  border: 2px solid #dadada;
+}
+.active:active {
+  border: none;
+}
+.legend {
+  width: 155px;
+  height: 20px;
+  left: 1px;
+  font-family: Anton;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: rgb(173, 76, 41);
+}
+fieldset {
+  border-color: transparent;
+}
+
+.signUpButton {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(22, 22, 22);
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 80px;
+  background-color: rgb(58, 52, 47);
+  margin-bottom: 20px;
+  border-radius: 3px;
+  color: white;
+}
+.titleAvailabilityAcc {
+  width: 200px;
+  height: 20px;
+  left: 1px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 30px;
+}

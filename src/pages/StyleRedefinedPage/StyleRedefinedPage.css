@@ -1,0 +1,73 @@
+.redefinedContainer {
+  width: auto;
+  height: 700px;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+}
+
+.backWhite {
+  width: 1800px;
+  height: 700px;
+}
+
+.redefinedimg {
+  width: 300px;
+  height: 200px;
+}
+
+.containerRedef {
+  width: 1200px;
+  height: 560px;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 86px;
+}
+
+.redefinedimg {
+  width: 180px;
+  height: 180px;
+  margin-top: 26px;
+}
+
+.textredefOne {
+  font-family: Anton;
+  font-size: 85px;
+  font-weight: 600px;
+  margin-top: -60px;
+  height: 105px;
+}
+
+.textredefTwo {
+  font-family: Anton;
+  font-size: 85px;
+  position: absolute;
+  z-index: 5;
+  margin-left: 20px;
+}
+
+.containerRedefBottom {
+  width: 700px;
+  display: flex;
+  justify-content: end;
+}
+
+.redefinedImgBottomOne {
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  z-index: 0;
+  margin-right: 365px;
+  margin-top: 75px;
+}
+
+.redefinedImgBottomTwo {
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 75px;
+}

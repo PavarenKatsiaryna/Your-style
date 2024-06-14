@@ -1,0 +1,59 @@
+.footerContainer {
+  height: 365px;
+  width: auto;
+  background-color: #9c9c9c;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.nameCont {
+  width: 300px;
+  font-family: Anton;
+  font-size: 40px;
+  color: #3f3f3f;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.textCont {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 65px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #3f3f3f;
+}
+
+.inputCont {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.columnOne {
+  width: 155px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columnTwo {
+  width: 155px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 85px;
+  justify-content: space-between;
+  color: #3f3f3f;
+}

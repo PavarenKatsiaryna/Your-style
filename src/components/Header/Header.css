@@ -1,0 +1,73 @@
+.headerContainer {
+  width: auto;
+  height: 80px;
+  background-color: #d6d6d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  font-family: Anton;
+  font-size: 26px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #8e2207d0;
+}
+
+.navigation {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerIcons {
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headericon {
+  margin-top: 4px;
+}
+
+.iconsRight {
+  font-size: 20px;
+}
+.iconsRightTwo {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.globe {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowmini {
+  width: 13px;
+  margin-top: 2px;
+}

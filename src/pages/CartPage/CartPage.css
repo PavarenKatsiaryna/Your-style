@@ -1,0 +1,112 @@
+.cartContainer {
+  width: 310px;
+  height: auto;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  top: 60px;
+  right: 25px;
+}
+
+.textCart {
+  font-family: Anton;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.titleCart {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.descriptionCart {
+  width: 135px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttonLogIn {
+  width: 170px;
+  height: 40px;
+  background-color: #ff5f20;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.crossIcon {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.iconSmile {
+  font-size: 26px;
+  position: absolute;
+  top: -40px;
+  right: 46px;
+  rotate: 23deg;
+}
+
+.iconSmileS {
+  font-size: 24px;
+  position: absolute;
+  top: 32px;
+  right: 113px;
+  rotate: 23deg;
+}
+
+.containerForItems {
+  width: 305px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartImage {
+  width: 35px;
+  height: 35px;
+}
+
+.cartTitle {
+  font-size: 11px;
+  font-family: Roboto;
+}
+
+.cartPrice {
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.deleteIcon {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.emptyButton {
+  width: 170px;
+  height: 40px;
+  background-color: #ff5f20;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

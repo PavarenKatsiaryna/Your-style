@@ -1,0 +1,41 @@
+.usContainerCompon {
+  width: 727px;
+  height: 430px;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  left: 290px;
+  top: 80px;
+}
+
+.usName {
+  font-family: Anton;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.usDescription {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 90px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.readMore {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  justify-content: end;
+}
+
+.arrowUs {
+  font-size: 17px;
+  margin-left: 7px;
+  margin-top: 2px;
+}

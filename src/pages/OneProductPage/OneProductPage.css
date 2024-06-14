@@ -1,0 +1,200 @@
+.imageOneProduct {
+  width: 340px;
+  height: 400px;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  border-radius: 8px;
+}
+
+.oneProductSettings {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  right: 305px;
+}
+
+.oneProductTitle {
+  width: 245px;
+  height: auto;
+  font-family: Anton;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.oneProductCount {
+  width: 245px;
+  height: 50px;
+  font-family: Anton;
+  font-size: 20px;
+}
+
+.textColor {
+  width: 100px;
+  height: 10px;
+  margin-right: 140px;
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+.oneProductColor {
+  width: 245px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonsColor {
+  width: 70px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.buttonsColorBrown {
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #805949;
+  border: none;
+}
+
+.buttonsColorBlack {
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #000000;
+  border: none;
+}
+
+.buttonsColorWhite {
+  width: 18px;
+  height: 18px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.oneProductSize {
+  width: 245px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.addToCart {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f1ddd4;
+  margin-left: 50px;
+  font-family: Anton;
+  font-size: 19px;
+}
+
+.buttonsSize {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.buttonsSize:hover {
+  background-color: white;
+}
+
+.mainContainer {
+  width: auto;
+  height: auto;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.backOne {
+  width: 1380px;
+  height: 690px;
+}
+
+.relativeContainer {
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  z-index: 0;
+}
+
+.addedToCart {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #acacac;
+  pointer-events: none;
+  margin-left: 50px;
+  font-family: Anton;
+  font-size: 17px;
+}
+
+.backText {
+  font-family: Anton;
+  font-size: 20px;
+  margin-top: -50px;
+}
+.backIcon {
+  font-family: Anton;
+  font-size: 18px;
+  margin-right: 13px;
+}
+
+.counterButton {
+  display: flex;
+  flex-direction: row;
+  height: 26px;
+  width: 245px;
+  justify-content: center;
+}
+
+.countValueStyle {
+  font-size: 20px;
+  font-family: Anton;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #000000;
+  width: 75px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 3px;
+}
+
+.more {
+  font-size: 20px;
+  font-family: Anton;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 28px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.more:hover {
+  background-color: rgb(227, 227, 227);
+}

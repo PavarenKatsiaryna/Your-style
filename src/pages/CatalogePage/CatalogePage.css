@@ -1,0 +1,92 @@
+.featContainer {
+  width: auto;
+  height: auto;
+  background-color: #f9f3f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.featinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Anton;
+  font-size: 20px;
+  font-weight: 400;
+  width: 1120px;
+  height: 70px;
+  color: #8e2207d0;
+}
+
+.featCards {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imgloomA {
+  width: 200px;
+  height: 200px;
+  transition: transform 1s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px #f4aa65;
+}
+.imgloomA:hover {
+  transform: scale(1.1);
+}
+
+.imgloomB {
+  width: 200px;
+  height: 200px;
+  transition: transform 1s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px #f4aa65;
+}
+.imgloomB:hover {
+  transform: scale(1.1);
+}
+.imgloomC {
+  width: 200px;
+  height: 200px;
+  transition: transform 1s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px #f4aa65;
+}
+.imgloomC:hover {
+  transform: scale(1.1);
+}
+
+.cardContainer {
+  width: auto;
+  height: 300px;
+}
+
+.featCostContainer {
+  height: 50px;
+  margin-top: 15px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #cb680b;
+}
+
+.featText {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.featCost {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+}

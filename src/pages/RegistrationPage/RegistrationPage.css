@@ -1,0 +1,51 @@
+.regContainer {
+    width: 205px;
+    height: 205px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    right: 65px;
+}
+
+.textLogIn{
+    font-family: Anton;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    position: relative;
+}
+
+.buttonLogIn {
+    width: 170px;
+    height: 40px;
+    background-color: #ff5f20;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.buttonSignUp {
+    width: 170px;
+    height: 40px;
+    background-color: #4d4d4d;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.crossIcon{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}

@@ -1,0 +1,144 @@
+.mainContainer {
+  width: auto;
+  height: 500px;
+  background-color: #d6d6d6;
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  width: 1800px;
+  height: 500px;
+}
+
+.relativeContainer {
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  z-index: 0;
+}
+
+.topContainer {
+  left: 89px;
+  top: 35px;
+  position: absolute;
+  z-index: 1;
+  width: 980px;
+  height: 210px;
+  font-family: Anton;
+  font-size: 230px;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%) rotate(0deg);
+  opacity: 0;
+  animation: slide-in 0.7s forwards, blur-text 0.7s 0.9s forwards,
+    rotate 0.7s 0.9s forwards;
+}
+@keyframes slide-in {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+@keyframes blur-text {
+  0% {
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+}
+.mediumContainer {
+  left: 185px;
+  top: 250px;
+  position: absolute;
+  z-index: 1;
+  width: 1000px;
+  height: 193px;
+  font-family: Anton;
+  font-size: 180px;
+  display: flex;
+  align-items: center;
+  animation: blur-text 0.7s 0.9s forwards;
+}
+
+@keyframes blur-text {
+  0% {
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+}
+.imgsleek {
+  margin-left: 40px;
+  width: 395px;
+  height: 150px;
+}
+.imgloom {
+  margin-right: 40px;
+  width: 260px;
+  height: 150px;
+}
+.buttonContainer {
+  width: 145px;
+  height: 135px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -105px;
+  margin-top: -440px;
+}
+.buttonRing {
+  width: 257px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  font-family: Kanit;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.gragg {
+  width: 460px;
+  height: 150px;
+  position: absolute;
+  z-index: 0;
+  top: -190px;
+  right: 105px;
+  rotate: 4deg;
+}

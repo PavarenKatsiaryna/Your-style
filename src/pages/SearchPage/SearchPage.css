@@ -1,0 +1,52 @@
+.searchContainer {
+    width: 1190px;
+    height: auto;
+    background-color: #ededed;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    right: 95px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularSearches {
+    font-family: Anton;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-right: 750px;
+}
+
+.searchInput {
+    width: 900px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 75px;
+    padding-left: 45px;
+    position: relative;
+}
+
+
+.iconSearch{
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 88px;
+    left: 140px;
+}
+
+.titleSearch{
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    margin-right: 150px;
+    font-family: 'Roboto';
+    font-size: 21px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: black;
+}

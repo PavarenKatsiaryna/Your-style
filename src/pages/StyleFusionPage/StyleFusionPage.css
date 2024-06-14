@@ -1,0 +1,30 @@
+.fusionContainer {
+  height: 360px;
+  width: auto;
+  background-color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fusionMiniContainer {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.textFusion {
+  font-family: Anton;
+  font-size: 85px;
+  font-weight: 400;
+}
+
+.fusionImage {
+  top: -30px;
+  right: 91px;
+  width: 225px;
+  height: 160px;
+  position: absolute;
+  rotate: 10deg;
+}
